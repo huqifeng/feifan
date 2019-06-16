@@ -1,0 +1,179 @@
+.project-update-wrap {
+
+  a {
+    color: #179bff;
+    text-decoration: none;
+  }
+
+  .upload-tips {
+    font-size: 12px;
+    color: #999;
+    line-height: 18px;
+    margin-top: 13px;
+  }
+
+  .keyword-search {
+    float: right;
+    position: relative;
+
+    i {
+      position: absolute;
+      right: 10px;
+      top: 12px;
+      color: #d8d8d8;
+    }
+  }
+
+  .el-textarea__inner {
+    border-radius: 0;
+    width: 250px;
+  }
+
+  .add-btn {
+    a {
+      font-size: 16px;
+      margin-left: 180px;
+    }
+  }
+
+  .info-section {
+    width: 1090px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 24px 0px rgba(40, 120, 255, 0.2);
+    margin: 80px auto 10px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    color: #333;
+    border-radius: 0px;
+
+    .el-form-item {
+      position: relative;
+      padding-right: 20px;
+
+      .delete {
+        position: absolute;
+        top: 50%;
+        margin-top: -7px;
+        right: -30px;
+        font-size: 20px;
+        line-height: normal;
+        color: #179bff
+      }
+
+      .el-form-item__content {
+        min-width: 250px;
+      }
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 50px;
+
+      >span {
+        font-size: 16px;
+        color: #666666;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.hide-upload {
+  .el-upload {
+    display: none;
+  }
+}
+
+.el-upload-list--picture-card {
+  .el-upload-list__item {
+    border-radius: 0;
+    border: none;
+    width: 165px;
+    height: 210px;
+    overflow: visible;
+    background: #f1f1f1;
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  .el-upload-list__item-actions {
+    background: none;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    top: 0px;
+    left: auto;
+    right: -62px;
+    cursor: pointer;
+  }
+
+  span.el-upload-list__item-delete {
+    background: transparent url('~@/assets/images/dialogClose.png') no-repeat scroll 0 0;
+    background-size: 24px auto;
+    width: 24px;
+    height: 24px;
+    display: block;
+    outline: none;
+
+    .el-icon-delete {
+      display: none;
+    }
+  }
+
+  .el-upload-list__item-status-label {
+    display: none !important;
+
+    .el-icon-close-tip {
+      display: none;
+    }
+  }
+}
+
+.el-upload--picture-card {
+  background: transparent url('~@/assets/images/related-add.png') no-repeat scroll 0 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  line-height: normal;
+  border-radius: 0;
+  vertical-align: middle;
+
+  .el-icon-plus {
+    display: none;
+  }
+}
+
+.custom-select {
+  height: 35px;
+  line-height: 35px;
+  border-radius: 0;
+  border: 1px solid #d8d8d8;
+  font-size: 12px;
+  color: #333333;
+  width: 250px;
+  padding-left: 15px;
+  position: relative;
+  padding-right: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  >i {
+    color: #c0c4cc;
+    font-size: 14px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+  }
+}

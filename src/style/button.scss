@@ -1,0 +1,66 @@
+//确定
+//輸入框
+.importSelect {
+  line-height: 40px;
+
+  .el-input__inner {
+    height: 20px;
+    line-height: 20px;
+    border: 0;
+    color: #179bff;
+  }
+
+  //.el-input__inner:hover{
+  //  background: #f5f7fa;
+  //}
+
+  .el-input__suffix>.el-input__suffix-inner .el-select__caret {
+    color: #179bff;
+  }
+}
+
+//上传按钮
+.el-button.uploadButton.el-button--primary {
+  border-radius: 18px;
+  padding: 8.5px 28px;
+  font-size: 16px;
+}
+
+.el-button.manyBtn {
+  background: rgba(241, 241, 241, 1);
+  color: #999999;
+  padding: 0 13px;
+  height: 35px;
+  border-radius: 0;
+  border: none;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.el-button.manyBtn:hover,
+.el-button.manyBtn:focus {
+  background: #179bff;
+  color: #fff;
+}
+
+.buttons-wrap {
+  padding: 0 30px 20px;
+  text-align: right;
+
+  .el-button {
+    border-radius: 18px;
+    padding: 8.5px 26px;
+    font-size: 16px;
+    border: 0;
+  }
+
+  .el-button+.el-button {
+    margin-left: 30px;
+  }
+
+  .el-button--default {
+    color: rgba(153, 153, 153, 1);
+    background: rgba(241, 241, 241, 1);
+  }
+
+}

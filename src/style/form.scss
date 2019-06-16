@@ -1,0 +1,163 @@
+
+//全局下拉菜单
+.el-dropdown-menu{
+  padding:0 !important;
+  .el-dropdown-menu__item{
+    font-size:12px;
+  }
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover, .el-dropdown-menu__item:focus {
+  background-color: #F1F1F1 !important;
+  color: #333333 !important;
+}
+
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{
+  background-color: #F5F7FA;
+}
+
+//全局搜索
+.rightInput .el-input{
+  width:300px;
+  .el-input__inner{
+    height:35px;
+    line-height:35px;
+    border-radius:0;
+    background:rgba(248,248,248,1);
+    font-size:12px;
+    color:#333333;
+    border:1.5px solid #fff;
+  }
+  .el-input__inner:focus{
+    border-color:#6EBFFD;
+  }
+}
+
+.rightInput1{
+  .el-input{
+    width:300px;
+    .el-input__inner{
+      height:30px;
+      line-height:35px;
+      border-radius:0;
+      background:rgba(248,248,248,1);
+      font-size:12px;
+      color:#333333;
+      border:1.5px solid #fff;
+    }
+    .el-input__inner:focus{
+      border-color:#6EBFFD;
+    }
+  }
+  i{
+    top:14px !important;
+  }
+}
+
+//任务输入框
+.taskInput .el-input{
+  width:110px;
+  .el-input__inner{
+    height:40px;
+    line-height:35px;
+    border-radius:0;
+    background:#fff;
+    font-size:12px;
+    color:#333333;
+    border:none;
+  }
+  i{
+    display:none;
+  }
+}
+
+//操作选项卡的弹框样式
+.tab{
+  background:#fff;
+  height:40px;
+  padding:0 102px 0;
+  .el-form--inline .el-form-item{
+    margin-right:0;
+  }
+  .el-button{
+    border:none;
+  }
+  .el-button:hover{
+    color: #fff;
+    border-color: #c6e2ff;
+    background-color: #6EBFFD;
+  }
+  //.el-button:focus{
+  //  color: #606266;
+  //  border-color: #fff;
+  //  background-color: #fff;
+  //}
+  .el-button:focus{
+    color: #fff;
+    border-color: #c6e2ff;
+    background-color: #179bff;
+  }
+  .el-dropdown{
+    i{
+      display:none;
+    }
+
+    .el-button{
+      border-radius:0;
+    }
+  }
+  .el-select:hover .el-input__inner{
+    background-color: #6EBFFD;
+    color: #fff;
+  }
+  .task-filter-form{
+    height:40px;
+    background:#fff;
+  }
+}
+
+//导入选项卡
+.importTab{
+  .el-tabs{
+    margin-left: 25px;
+    .el-tabs__header{
+      margin:0;
+      border-bottom:none !important;
+    }
+    .el-tabs__content{
+      overflow:inherit;
+    }
+    .el-tabs__item:hover{
+      color:#999999;
+    }
+    .el-tabs__item.is-active{
+      color:#fff;
+      background:#179BFF;
+    }
+    .el-tabs__item{
+      background:rgba(241,241,241,1);
+      color:#999999;
+      border-left:none !important;
+    }
+  }
+  .el-tabs--card > .el-tabs__header .el-tabs__nav{
+    border-radius:0;
+    border:none;
+    >div{
+      font-size:16px;
+    }
+  }
+  .el-tabs__nav-wrap{
+    margin-bottom:0;
+  }
+}
+
+.remark-form .el-input-group__append{
+  position: absolute;
+  right: 0;
+  top: -0.5px;
+  width: 80px;
+  padding: 0;
+  height: 34px;
+  line-height: 34px;
+}
